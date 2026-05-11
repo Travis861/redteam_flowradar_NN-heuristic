@@ -526,6 +526,9 @@ test.py
 
 # Volumes:
 volumes/**
+!data/merged_metrics.csv
+!data/metrics.csv
+!data/metrics0.csv
 !volumes/**/
 !volumes/**/*.gitkeep
 !volumes/configs/**/
